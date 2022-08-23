@@ -1,0 +1,12 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  max-height: 5182px;
+  max-width: 1920px;
+  min-width: 400px;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+}

@@ -1,0 +1,122 @@
+@media (max-width: 810px) {
+
+  .blog-content {
+    position: relative;
+    width: 100%;
+    min-height: 420px;
+  }
+
+  .blog-content .heading {
+    font-size: calc(1.1rem + 0.5vw);
+  }
+
+  .blog-content .blog-entries {
+    width: auto;
+    height: auto;
+    left: 5vw;
+    right: 5vw;
+    top: 12vw;
+    overflow: scroll;
+    z-index: 1;
+  }
+
+  .blog-content .blog-entries::-webkit-scrollbar {
+    display: none;
+  }
+
+  .blog-content .blog-entries {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .blog-content .shadow-left {
+    position: absolute;
+    visibility: visible !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(300px + 4.28vw);
+    width: 2vw;
+    left: 5vw;
+    top: 12vw;
+    box-shadow: inset 24px 0px 39px -34px black;
+    z-index: 2;
+  }
+
+  .blog-content .arrow {
+    font-size: 30px;
+    color: rgb(0,98,160);
+    cursor: pointer;
+  }
+
+  .blog-content .shadow-right {
+    position: absolute;
+    visibility: visible !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(300px + 4.28vw);
+    width: 2vw;
+    right: 5vw;
+    top: 12vw;
+    box-shadow: inset -24px 0px 31px -34px black;
+    z-index: 2;
+  }
+
+  .blog-content .blog-entries .one-blog {
+    width: 224.5px !important;
+    height: calc(300px + 4.28vw);
+    margin-left: 2vw;
+    margin-right: 0.5vw;
+  }
+
+  .blog-content .blog-entries .photo-content {
+    width: 224.5px !important;
+    height: 125.5px !important;
+  }
+
+  .blog-content .blog-entries .photo-content .beside-bcg {
+    width: 186px;
+    height: 39px;
+    bottom: -1px;
+    right: -1px;
+    opacity: 0.8;
+  }
+
+  .blog-content .blog-entries .photo-content .date {
+    top: 100px;
+    left: 100px;
+    font-size: 15px;
+  }
+
+  .blog-content .blog-entries .one-blog .heading {
+    width: 215px !important;
+    left: 5px;
+    top: 130px;
+    font-size: calc(0.65rem + 0.55vw);
+  }
+
+  .blog-content .blog-entries .one-blog .body {
+    min-width: 210px !important;
+    left: 5px;
+    top: 190px;
+    min-height: none;
+    overflow: visible;
+  }
+
+  .blog-content .blog-entries .one-blog .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 91px;
+    height: 20.5px;
+    top: 300px;
+    left: 120px !important;
+  }
+
+  .blog-content .blog-entries .one-blog .button .text-button {
+    font-size: calc(0.5rem + 0.32vw);
+    margin: 0 !important;
+  }
+
+}

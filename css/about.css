@@ -1,0 +1,192 @@
+.about-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.about-container .description {
+  position: relative;
+  width: 100%;
+}
+
+.about-container .description .text-main {
+  position: absolute;
+  width: 33.39vw;
+  height: auto;
+  padding-bottom: 1.77vw;
+}
+
+.about-container .description .text-main .heading {
+  margin: 0;
+  width: 23.33vw;
+  max-width: 448px;
+  font-weight: bold;
+  color: #262b3a;
+  font-size: calc(1.5rem + 0.6vw);
+}
+
+.about-container .description .text-body {
+  position: absolute;
+  width: 33.39vw;
+  height: 14.38vw;
+}
+
+.about-container .description .text-body .text-only {
+  width: 26.51vw;
+  max-width: 509px;
+  margin: 0;
+  font-size: calc(0.42rem + 0.3vw);
+  line-height: 1.8;
+  color: #6c7694;
+}
+
+.about-container .description .text-body .button {
+  position: absolute;
+  width: 9.48vw;
+  height: 2.14vw;
+  right: 0;
+  bottom: 0;
+  border-radius: 4px;
+  background: rgb(0,98,160);
+  background: linear-gradient(90deg, rgba(0,98,160,1) 0%, rgba(1,65,106,1) 1%);
+  cursor: pointer;
+}
+
+.about-container .description .text-body .button .text-button {
+  margin-top: 0.78vw;
+  margin-left: 1.98vw;
+  font-weight: bold;
+  font-size: calc(0.35rem + 0.32vw);
+  color: #fafcfd;
+}
+
+.about-container .blue-background {
+  position: absolute;
+  width: 41.46vw;
+  height: 26.1vw;
+  left: -3.75vw;
+  top: 9.9vw;
+  z-index: 1;
+}
+
+.about-container .blue-box {
+  position: absolute;
+  width: 4.32vw;
+  height: 4.32vw;
+  left: 14.79vw;
+  top: 27.8vw;
+  z-index: 2;
+}
+
+.about-container .white-box {
+  position: absolute;
+  width: 3.49vw;
+  height: 3.49vw;
+  left: 36.77vw;
+  top: 28.23vw;
+  z-index: 2;
+}
+
+.about-container .lesson-info {
+  position: absolute;
+  width: 14.53vw;
+  height: 9.48vw;
+  left: 20.78vw;
+  top: 8.54vw;
+  z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about-container .calendar {
+  position: absolute;
+  width: 24.53vw;
+  height: 9.22vw;
+  left: 14.79vw;
+  top: 20.83vw;
+  z-index: 4;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.about-container .white-vertical-background {
+  position: absolute;
+  width: 13.39vw;
+  height: 34.06vw;
+  left: 3.65vw;
+  top: 5.99vw;
+  background: #ffffff;
+  z-index: 3;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.about-container .white-vertical-background .logo {
+  position: absolute;
+  width: 4.38vw;
+  height: 3.54vw;
+  top: 2.08vw;
+  left: 4.69vw;
+}
+
+.about-container .white-vertical-background .name {
+  position: absolute;
+  width: 5.21vw;
+  height: 0.89vw;
+  top: 7.4vw;
+  left: 3.75vw;
+}
+
+.about-container .option-photos {
+  position: absolute;
+  width: 11.2vw;
+  height: 2.5vw;
+  top: 24.95vw;
+  left: 6.25vw;
+  z-index: 5;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.about-container .white-vertical-background .wallet {
+  position: absolute;
+  width: 1.04vw;
+  height: 0.89vw;
+  top: 22.97vw;
+  left: 2.08vw;
+}
+
+.about-container .white-vertical-background .folder {
+  position: absolute;
+  width: 0.99vw;
+  height: 0.83vw;
+  top: 25.94vw;
+  left: 2.08vw;
+}
+
+.about-container .white-vertical-background .wallet-text {
+  position: absolute;
+  width: 2.76vw;
+  height: 0.57vw;
+  top: 23.13vw;
+  left: 3.75vw;
+}
+
+.about-container .white-vertical-background .folder-text {
+  position: absolute;
+  width: 2.86vw;
+  height: 0.73vw;
+  top: 26.04vw;
+  left: 3.75vw;
+}
+
+.about-container .half-blue-background {
+  position: absolute;
+  width: 27.55vw;
+  height: 30.31vw;
+  top: 4.64vw;
+  left: 80.36vw;
+}
+
+.about-container .pencils {
+  position: absolute;
+  width: 43.91vw;
+  height: 30.99vw;
+  top: 0;
+  left: 62.4vw;
+}

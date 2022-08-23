@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>otoedu.pl</title>
+    <link rel="icon" href="./img/Path_1.png" type="image/icon type">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/navigation_mobile.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/search_mobile.css">
+    <link rel="stylesheet" href="./css/results.css">
+    <link rel="stylesheet" href="./css/results_mobile.css">
+    <link rel="stylesheet" href="./css/bestoffer.css">
+    <link rel="stylesheet" href="./css/bestoffer_mobile.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/about_mobile.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="./css/blog_mobile.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/footer_mobile.css">
+
+    <script src="./scripts/section_Changer.js"></script>
+  </head>
+  <body>
+    <nav class="navigation-content">
+      <img class="logo" src="./img/Group_328.png" alt="Logo">
+      <div class="navbar">
+        <ul>
+          <li><a href="">strona główna</a></li>
+          <li><a href="">O nas</a></li>
+          <li><a href="">O zajęciach</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Galeria</a></li>
+          <li><a href="">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="login">
+        <img class="user" src="./img/Path_393.png" alt="User">
+        <a href="">Zaloguj się</a>
+      </div>
+    </nav>
+    <section class="search-content">
+      <img class="kids-attention" src="./img/Group_440.png" alt="Kids Attention">
+      <aside class="search-form">
+        <p class="info">Wybierz zajęcia dla swojego dziecka</p>
+        <div class="form">
+          <div class="section-changer">
+            <div class="button" id="button_1">
+              <p class="text">zajęcia</p>
+            </div>
+            <div class="button" id="button_2">
+              <p class="text">eventy</p>
+            </div>
+          </div>
+          <div class="section-menu" id="section_lessons">
+            <select selected="selected" class="menu-city">
+              <option class="row" value="city" hidden="hidden" selected="selected">miasto</option>
+              <option class="row" value="city_default">cała Polska</option>
+              <option class="row" value="city_kato">Katowice</option>
+            </select>
+            <div class="arrow">
+              <img class="arrow" src="./img/Path_394.png" alt="V">
+            </div>
+            <div class="vl"></div>
+            <select selected="selected" class="menu-school">
+              <option class="row" value="city" hidden="hidden" selected="selected">szkoła</option>
+            </select>
+            <div class="submit-button">
+              <p class="text">szukaj</p>
+            </div>
+          </div>
+          <div class="filter-container" id="filters">
+            <div class="filter">
+              <p class="text">Matematyka</p>
+              <img class="close" src="./img/Group_238.png" alt="Close">
+            </div>
+            <div class="filter">
+              <p class="text">Sp. 24</p>
+              <img class="close" src="./img/Group_238.png" alt="Close">
+            </div>
+          </div>
+          <div class="events-container" id="events">
+            <div class="information">
+              <p class="no-data">Imprezy już wkrótce !</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+    <div class="shadow-top" style="visibility: hidden;"></div>
+    <section class="results-content">
+      <article class="all-results">
+        <p class="info">Wybierz zajęcia dla swojego dziecka</p>
+        <div class="offers-content">
+          <div class="one-offer" style="margin-left: 0;">
+            <div class="photo">
+              <img class="kids-line" src="./img/kids_line.png" alt="Kids Line">
+              <img class="logo" src="./img/Group_391.png" alt="Logo">
+            </div>
+            <p class="text-kind">zajęcia</p>
+            <p class="text-lesson">Matematyka</p>
+            <p class="text-about">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum massa vitae dui pharetra egestas. Nullam id
+            </p>
+            <div class="species">
+              <img class="clock" src="./img/clock.png" alt="O">
+              <img class="wallet" src="./img/wallet.png" alt="V">
+              <p class="text-clock">Czas trwania</p>
+              <p class="text-wallet">cena</p>
+              <p class="text-time">180 min.</p>
+              <p class="text-price">120 zł/zajęcia</p>
+            </div>
+            <div class="options-buttons">
+              <div class="save">
+                <p class="text-save">zapisz się</p>
+              </div>
+              <div class="show">
+                <p class="text-show">zobacz</p>
+              </div>
+            </div>
+          </div>
+          <div class="one-offer">
+            <div class="photo">
+              <img class="kids-line" src="./img/kid_book.png" alt="Kids Line">
+              <img class="logo" src="./img/Group_391.png" alt="Logo">
+            </div>
+            <p class="text-kind">zajęcia</p>
+            <p class="text-lesson">Chemia</p>
+            <p class="text-about">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum massa vitae dui pharetra egestas. Nullam id
+            </p>
+            <div class="species">
+              <img class="clock" src="./img/clock.png" alt="O">
+              <img class="wallet" src="./img/wallet.png" alt="V">
+              <p class="text-clock">Czas trwania</p>
+              <p class="text-wallet">cena</p>
+              <p class="text-time">180 min.</p>
+              <p class="text-price">120 zł/zajęcia</p>
+            </div>
+            <div class="options-buttons">
+              <div class="save">
+                <p class="text-save">zapisz się</p>
+              </div>
+              <div class="show">
+                <p class="text-show">zobacz</p>
+              </div>
+            </div>
+          </div>
+          <div class="one-offer">
+            <div class="photo">
+              <img class="kids-line" src="./img/kid_smile.png" alt="Kids Line">
+              <img class="logo" src="./img/Group_391.png" alt="Logo">
+            </div>
+            <p class="text-kind">zajęcia</p>
+            <p class="text-lesson">Biologia</p>
+            <p class="text-about">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum massa vitae dui pharetra egestas. Nullam id
+            </p>
+            <div class="species">
+              <img class="clock" src="./img/clock.png" alt="O">
+              <img class="wallet" src="./img/wallet.png" alt="V">
+              <p class="text-clock">Czas trwania</p>
+              <p class="text-wallet">cena</p>
+              <p class="text-time">180 min.</p>
+              <p class="text-price">120 zł/zajęcia</p>
+            </div>
+            <div class="options-buttons">
+              <div class="save">
+                <p class="text-save">zapisz się</p>
+              </div>
+              <div class="show">
+                <p class="text-show">zobacz</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </section>
+    <div class="shadow-bottom" style="visibility: hidden;"></div>
+    <section class="best-offer">
+      <div class="photo">
+        <img class="kids" src="./img/kids_line_big.png" alt="Kids">
+        <img class="box" src="./img/Rectangle_843.png" alt="Box">
+        <img class="star" src="./img/star.png" alt="Star">
+        <p class="text-kind">event miesiąca</p>
+        <p class="text-lesson">Matematyka</p>
+        <p class="text-about">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum massa vitae dui pharetra egestas. Nullam id purus non nibh consequat feugiat. Fusce ut orci at neque congue convallis. Phasellus ut felis convallis, tempus elit ac, semper massa. Praesent fermentum,</p>
+        <div class="species">
+          <img class="clock" src="./img/clock.png" alt="O">
+          <img class="wallet" src="./img/wallet.png" alt="V">
+          <p class="text-clock">Czas trwania</p>
+          <p class="text-wallet">cena</p>
+          <p class="text-time">180 min.</p>
+          <p class="text-price">120 zł/zajęcia</p>
+        </div>
+        <div class="options-buttons">
+          <div class="save">
+            <p class="text-save">zapisz się</p>
+          </div>
+          <div class="show">
+            <p class="text-show">zobacz</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="middle-view">
+      <img class="gradient" src="./img/gradient_middle.png" alt="Gradient">
+      <p class="header">
+        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Donec Interdum Massa Vitae Dui
+      </p>
+      <div class="button">
+        <p class="text-button">zobacz</p>
+      </div>
+    </section>
+    <section class="about-container" style="height: 80.68vw">
+      <article class="description" style="height: 42.08vw;">
+        <img class="blue-background" src="./img/Rectangle_127.png">
+        <img class="blue-box" src="./img/Path_230.png">
+        <img class="white-box" src="./img/Rectangle_129.png">
+        <img class="lesson-info" src="./img/Group_354.png">
+        <div class="white-vertical-background">
+          <img class="logo" src="./img/Group_1.png">
+          <img class="name" src="./img/Marta_Migocka.png">
+          <img class="wallet" src="./img/small_wallet.png">
+          <img class="folder" src="./img/small_folder.png">
+          <img class="wallet-text" src="./img/wallet_text.png">
+          <img class="folder-text" src="./img/folder_text.png">
+        </div>
+        <img class="option-photos" src="./img/Group_362.png">
+        <img class="calendar" src="./img/Group_355.png">
+        <div class="text-main" style="left: 50vw; bottom: 21.1vw;">
+          <p class="heading">Czym jest oto edu?</p>
+        </div>
+        <div class="text-body" style="left: 50vw; top: 20.99vw;">
+          <p class="text-only">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum massa vitae dui pharetra egestas. Nullam id purus non nibh consequat feugiat. Fusce ut orci at neque congue convallis. Phasellus ut felis convallis, tempus elit ac, semper massa. Praesent fermentum, justo et volutpat iaculis, justo ligula rutrum tortor, ac malesuada diam sapien nec sem. Pellentesque sed dapibus est, non sagittis sem. Curabitur tortor neque, aliquam ut blandit congue, vehicula vel sapien.
+          </p>
+          <div class="button">
+            <p class="text-button">zobacz więcej</p>
+          </div>
+        </div>
+      </article>
+      <article class="description" style="height: 38.6vw;">
+        <img class="half-blue-background" src="./img/Rectangle_813.png">
+        <img class="pencils" src="./img/pencils.png">
+        <div class="text-main" style="left: 14.48vw; bottom: 26.1vw;">
+          <p class="heading">Na czym polegają nasze zajęcia?</p>
+        </div>
+        <div class="text-body" style="left: 14.48vw; top: 12.45vw;">
+          <p class="text-only">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum massa vitae dui pharetra egestas. Nullam id purus non nibh consequat feugiat. Fusce ut orci at neque congue convallis. Phasellus ut felis convallis, tempus elit ac, semper massa. Praesent fermentum, justo et volutpat iaculis, justo ligula rutrum tortor, ac malesuada diam sapien nec sem. Pellentesque sed dapibus est, non sagittis sem. Curabitur tortor neque, aliquam ut blandit congue, vehicula vel sapien.
+          </p>
+          <div class="button">
+            <p class="text-button">zobacz więcej</p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="blog-content">
+      <p class="heading">Blog</p>
+      <div class="shadow-left" style="visibility: hidden;">
+        <p class="arrow">&#8249;</p>
+      </div>
+      <div class="blog-entries">
+        <div class="one-blog" style="width: 23.18vw;">
+          <div class="photo-content" style="width: 23.18vw;">
+            <img class="photo" src="./img/photo_blog_1.png" alt="blog_1">
+            <img class="beside-bcg" src="./img/Rectangle_832.png">
+            <p class="date">01.06.2020</p>
+          </div>
+          <p class="heading">
+            Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
+          </p>
+          <p class="body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum massa vitae dui pharetra egestas. Nullam id purus non nibh consequat feugiat. Fusce ut orci at neque congue convallis. Phasellus ut felis convallis, tempus elit ac,
+          </p>
+          <div class="button">
+            <p class="text-button">zobacz</p>
+          </div>
+        </div>
+        <div class="one-blog" style="width: 23.39vw;">
+          <div class="photo-content" style="width: 23.39vw;">
+            <img class="photo" src="./img/photo_blog_2.png" alt="blog_2">
+            <img class="beside-bcg" src="./img/Rectangle_832.png">
+            <p class="date">01.06.2020</p>
+          </div>
+          <p class="heading">
+            Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
+          </p>
+          <p class="body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum massa vitae dui pharetra egestas. Nullam id purus non nibh consequat feugiat. Fusce ut orci at neque congue convallis. Phasellus ut felis convallis, tempus elit ac,
+          </p>
+          <div class="button">
+            <p class="text-button">zobacz</p>
+          </div>
+        </div>
+        <div class="one-blog" style="width: 23.39vw;">
+          <div class="photo-content" style="width: 23.39vw;">
+            <img class="photo" src="./img/photo_blog_3.png" alt="blog_3">
+            <img class="beside-bcg" src="./img/Rectangle_832.png">
+            <p class="date">01.06.2020</p>
+          </div>
+          <p class="heading">
+            Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
+          </p>
+          <p class="body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum massa vitae dui pharetra egestas. Nullam id purus non nibh consequat feugiat. Fusce ut orci at neque congue convallis. Phasellus ut felis convallis, tempus elit ac,
+          </p>
+          <div class="button">
+            <p class="text-button">zobacz</p>
+          </div>
+        </div>
+      </div>
+      <div class="shadow-right" style="visibility: hidden;">
+        <p class="arrow">&#8250;</p>
+      </div>
+    </section>
+    <footer class="footer">
+      <img class="background" src="./img/background_footer.png">
+      <img class="logo" src="./img/Group_361.png" alt="Logo">
+      <div class="navbar">
+        <ul>
+          <li><a href="">strona główna</a></li>
+          <li><a href="">O nas</a></li>
+          <li><a href="">O zajęciach</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Galeria</a></li>
+          <li><a href="">Kontakt</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+@media (max-width: 1150px) {
+  .search-content .search-form .form .section-changer {
+    width: 12vw;
+    height: 1.9vw;
+  }
+
+  .search-content .search-form .form .filter-container .filter {
+    width: calc(1.5rem + 10vw);
+    height: calc(1rem + 1vw);
+  }
+
+  .search-content .search-form .form .filter-container .filter .close {
+    height: calc(0.5rem + 0.5vw);
+    width: calc(0.5rem + 0.5vw);
+  }
+
+  .search-content .search-form .form .section-changer .button {
+    margin-right: calc(1rem + 1vw);
+  }
+}
+
+@media (max-width: 700px) {
+  .kids-attention {
+    display: none;
+  }
+
+  .search-content .search-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search-content .search-form .info {
+    margin-left: 5%;
+  }
+
+  .search-content .search-form .form {
+    width: 90%;
+    height: 18vw;
+    margin-left: 5%;
+    margin-top: 0;
+  }
+
+  .search-content .search-form .form .section-menu {
+    min-height: 30px;
+  }
+
+  .search-content .search-form .form .section-menu .arrow  {
+    top: 4.5px;
+    width: 10px;
+    height: 8px;
+  }
+
+  .search-content .search-form .form .section-changer {
+    width: 25vw;
+    height: 3vw;
+  }
+
+  .search-content .search-form .form .section-changer .button .text {
+    min-width: 40px;
+  }
+
+  .search-content .search-form .form .events-container {
+    margin-top: -5%;
+  }
+
+  .search-content .search-form .form .section-menu .menu-school {
+    width: 57vw;
+  }
+
+  .search-content .search-form .form .section-menu .vl {
+    min-height: 24px;
+  }
+
+}

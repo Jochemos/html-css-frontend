@@ -1,0 +1,152 @@
+@media (max-width: 810px) {
+
+  .results-content .all-results {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .results-content .all-results .offers-content {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .results-content .all-results .offers-content .one-offer .photo .logo {
+    bottom: -0.18vw;
+  }
+
+}
+
+@media (max-width: 810px) {
+
+  .shadow-top {
+    visibility: visible !important;
+    position: absolute;
+    margin-bottom: -150px;
+    width: 100%;
+    height: 50px;
+    box-shadow: inset 0 20px 30px -7px #b8b894;
+    background: transparent;
+    z-index: 4;
+  }
+
+  .shadow-bottom {
+    visibility: visible !important;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top: -50px;
+    box-shadow: inset 0 -20px 30px -7px #b8b894;
+    background: transparent;
+    z-index: 4;
+  }
+
+  .results-content {
+    overflow: auto;
+    z-index: 3;
+  }
+
+  .results-content::-webkit-scrollbar {
+    display: none;
+  }
+
+  .results-content {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .results-content .all-results {
+    height: 450px;
+  }
+
+  .results-content .all-results .info {
+    font-size: 2.5vw;
+    width: 40vw;
+    margin-left: 2%;
+  }
+
+  .results-content .all-results .offers-content .one-offer {
+    height: 320px;
+    margin-bottom: 15px;
+  }
+
+  .results-content .all-results .offers-content .one-offer .text-kind {
+    font-size: calc(0.5rem + 1vw);
+    top: 108px;
+  }
+
+  .results-content .all-results .offers-content .one-offer .text-lesson {
+    font-size: calc(0.8rem + 1.2vw);
+    top: 135px;
+  }
+
+  .results-content .all-results .offers-content .one-offer .text-about {
+    font-size: calc(0.3rem + 0.85vw);
+    top: 170px;
+    line-height: 1.6;
+    height: 50px;
+    overflow: hidden;
+  }
+
+  .results-content .all-results .offers-content .one-offer .species {
+    margin-top: 135px;
+    height: 45px;
+  }
+
+  .results-content .all-results .offers-content .one-offer .species .clock {
+    width: 14px;
+    height: 17px;
+    left: 23px;
+  }
+
+  .results-content .all-results .offers-content .one-offer .species .wallet {
+    width: 20px;
+    height: 17px;
+    left: 20px;
+  }
+
+  .results-content .all-results .offers-content .one-offer .species .text-clock {
+    display: none;
+  }
+
+  .results-content .all-results .offers-content .one-offer .species .text-wallet {
+    display: none;
+  }
+
+  .results-content .all-results .offers-content .one-offer .species .text-time {
+    top: -4%;
+    font-size: 14px;
+    left: 60px;
+  }
+
+  .results-content .all-results .offers-content .one-offer .species .text-price {
+    top: 55%;
+    font-size: 17px;
+    left: 60px;
+  }
+
+  .results-content .all-results .offers-content .one-offer .options-buttons {
+    justify-content: space-around;
+    height: 30.75px;
+    width: 100%;
+    bottom: 1%;
+  }
+
+  .results-content .all-results .offers-content .one-offer .options-buttons .save {
+    height: 30.75px;
+    width: 75px;
+  }
+
+  .results-content .all-results .offers-content .one-offer .options-buttons .show {
+    height: 30.75px;
+    width: 75px;
+  }
+
+  .results-content .all-results .offers-content .one-offer .options-buttons .save .text-save {
+    font-size: calc(0.4rem + 1vw);
+  }
+
+  .results-content .all-results .offers-content .one-offer .options-buttons .show .text-show {
+    font-size: calc(0.4rem + 1vw);
+  }
+}

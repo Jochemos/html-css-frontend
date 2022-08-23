@@ -1,0 +1,184 @@
+.search-content {
+  display: flex;
+  height: 30.9vw;
+  width: 100%;
+  padding-top: 4.58vw;
+}
+
+.search-content .kids-attention {
+  height: inherit;
+  margin-left: -7.34vw;
+}
+
+.search-content .search-form {
+  height: inherit;
+  width: 100%;
+}
+
+.search-content .search-form .info {
+  width: 28.18vw;
+  height: auto;
+  color: #262b3a;
+  font-weight: bold;
+  font-size: 1.9vw;
+  margin-top: 4.84vw;
+  margin-left: 1.93vw;
+}
+
+.search-content .search-form .form {
+  width: 47.14vw;
+  height: 17vw;
+  margin-top: 3.91vw;
+  margin-left: 1.93vw;
+}
+
+.search-content .search-form .form .section-changer {
+  display: flex;
+  width: 9vw;
+  height: 1.25vw;
+}
+
+.search-content .search-form .form .section-changer .button {
+  font-size: calc(0.4rem + 0.18vw);
+  font-weight: bold;
+  color: #6c7694;
+  border-bottom: none;
+  cursor: default;
+  margin-right: 1.2vw;
+}
+
+.search-content .search-form .form .section-changer .button .text {
+  margin-top: 0;
+  height: 100%;
+  width: 3.91vw;
+}
+
+.search-content .search-form .form .section-menu {
+  position: relative;
+  width: 99%;
+  height: 2.97vw;
+  margin-top: 1.56vw;
+  background: #fafcfd;
+  border: 1px solid #bad4e5;
+  border-right: none !important;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.search-content .search-form .form .section-menu .menu-city {
+  position: absolute;
+  font-weight: 500;
+  color: #0062a0;
+  width: 19.32vw;
+  height: 100%;
+  appearance: none;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  padding-left: 1.51vw;
+  cursor: pointer;
+  z-index: 2;
+  font-size: calc(0.5rem + 0.18vw);
+}
+
+.search-content .search-form .form .section-menu .arrow {
+  position: absolute;
+  width: 0.68vw;
+  height: 0.68vw;
+  top: 0.5vw;
+  left: 8.5vw;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.search-content .search-form .form .section-menu .vl {
+  position: absolute;
+  border-left: 2px solid #bad4e5;
+  height: 1.93vw;
+  left: 19.32vw;
+  top: 0.52vw;
+}
+
+.search-content .search-form .form .section-menu .menu-school {
+  position: absolute;
+  font-weight: 500;
+  color: #0062a0;
+  width: 22.6vw;
+  height: 100%;
+  appearance: none;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  padding-left: 1.51vw;
+  cursor: pointer;
+  z-index: 2;
+  font-size: calc(0.5rem + 0.18vw);
+  left: 19.43vw;
+}
+
+.search-content .search-form .form .section-menu .submit-button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11.2vw;
+  height: 100%;
+  background-color: rgba(1, 65, 106, 1);
+  background-image: linear-gradient(90deg, rgba(1, 65, 106, 1) 14%, rgba(0, 98, 160, 1) 61%);
+  border: 1px solid transparent;
+  margin-top: -1px;
+  right: -1%;
+  border-radius: 4px;
+  z-index: 3;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-content .search-form .form .section-menu .submit-button .text {
+  font-size: calc(0.5rem + 0.18vw);
+  font-weight: bold;
+  color: #fafcfd;
+}
+
+.search-content .search-form .form .section-menu .submit-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  width: 13vw;
+}
+
+.search-content .search-form .form .filter-container {
+  display: flex;
+  visibility: visible;
+}
+
+.search-content .search-form .form .filter-container .filter {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #e6eff6;
+  width: 7.92vw;
+  height: 2.24vw;
+  margin-top: 1.98vw;
+  margin-right: 1.35vw;
+  border-radius: 3px;
+  color: #0062a0;
+}
+
+.search-content .search-form .form .filter-container .filter .text {
+  font-size: calc(0.45rem + 0.2vw);
+  font-weight: 500;
+  margin-left: 0.83vw;
+}
+
+.search-content .search-form .form .filter-container .filter .close {
+  position: absolute;
+  width: 0.73vw;
+  height: 0.73vw;
+  right: 0.78vw;
+  cursor: pointer;
+}
+
+.search-content .search-form .form .events-container {
+  visibility: hidden;
+  text-align: center;
+  font-weight: 500;
+  color: #0062a0;
+}

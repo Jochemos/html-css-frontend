@@ -1,0 +1,225 @@
+.best-offer {
+  display: flex;
+  width: 71.3vw;
+  height: 26.46vw;
+  margin-left: 14.48vw;
+}
+
+.best-offer .photo {
+  position: relative;
+  width: 35.31vw;
+  height: 19.95vw;
+  min-width: 226px;
+  min-height: 127.66px;
+}
+
+.best-offer .photo .kids {
+  width: 100%;
+  height: 100%;
+}
+
+.best-offer .photo .box {
+  position: absolute;
+  width: 3.8vw;
+  height: 3.8vw;
+  right: 0;
+  bottom: 0;
+}
+
+.best-offer .photo .star {
+  position: absolute;
+  width: 1.2vw;
+  height: 1.2vw;
+  right: 1.35vw;
+  bottom: 1.3vw;
+}
+
+.best-offer .text-kind {
+  position: absolute;
+  top: 1.72vw;
+  left: 44.06vw;
+  width: 100%;
+  margin: 0;
+  font-size: calc(0.25rem + 0.45vw);
+  font-weight: bold;
+  color: #e6b100;
+}
+
+.best-offer .text-lesson {
+  position: absolute;
+  top: 3.33vw;
+  left: 44.06vw;
+  margin: 0;
+  font-size: calc(0.4rem + 0.65vw);
+  color: #262b3a;
+}
+
+.best-offer .text-about {
+  position: absolute;
+  top: 5.26vw;
+  left: 44.06vw;
+  width: 20.16vw;
+  height: 4.48vw;
+  overflow: hidden;
+  margin: 0;
+  font-size: calc(0.2rem + 0.4vw);
+  line-height: 1.8;
+  color: #6c7694;
+}
+
+.best-offer .species {
+  position: absolute;
+  top: 11.61vw;
+  left: 44.06vw;
+  width: 100%;
+  height: 2.76vw;
+}
+
+.best-offer .species .clock {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0.73vw;
+  height: 0.89vw;
+  min-width: 7px;
+  min-height: 8.5px;
+}
+
+.best-offer .species .wallet {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 1.04vw;
+  height: 0.89vw;
+  min-width: 10px;
+  min-height: 8.5px;
+}
+
+.best-offer .species .text-clock {
+  position: absolute;
+  top: 0;
+  left: 1.56vw;
+  margin: 0;
+  font-size: calc(0.35rem + 0.35vw);
+  font-weight: bold;
+  color: #0062a0;
+}
+
+.best-offer .species .text-wallet {
+  position: absolute;
+  top: 1.8vw;
+  left: 1.56vw;
+  margin: 0;
+  font-size: calc(0.35rem + 0.35vw);
+  font-weight: bold;
+  color: #0062a0;
+}
+
+.best-offer .species .text-time {
+  position: absolute;
+  top: 0.1vw;
+  left: 9.95vw;
+  margin: 0;
+  font-size: calc(0.3rem + 0.3vw);
+  font-weight: 500;
+  color: #0062a0;
+}
+
+.best-offer .species .text-price {
+  position: absolute;
+  top: 1.98vw;
+  left: 9.95vw;
+  margin: 0;
+  font-size: calc(0.3rem + 0.3vw);
+  font-weight: 500;
+  color: #0062a0;
+}
+
+.best-offer .options-buttons {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  left: 60.1vw;
+  top: 17.03vw;
+  height: 2.14vw;
+  width: 11.2vw;
+}
+
+.best-offer .options-buttons .save {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.03vw;
+  width: 5.21vw;
+  border-radius: 4px;
+  border: 1px solid #0062a0;
+  cursor: pointer;
+}
+
+.best-offer .options-buttons .save .text-save {
+  font-weight: bold;
+  font-size: calc(0.4rem + 0.15vw);
+  color: #0062a0;
+}
+
+.best-offer .options-buttons .show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.14vw;
+  width: 5.21vw;
+  background: rgb(0,96,158);
+  background: linear-gradient(90deg, rgba(0,96,158,1) 0.0022090242709964514%, rgba(0,118,186,1) 1%);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.best-offer .options-buttons .show .text-show {
+  font-weight: bold;
+  font-size: calc(0.4rem + 0.15vw);
+  color: #fafcfd;
+}
+
+.middle-view {
+  position: relative;
+  width: 100%;
+  height: 16.15vw;
+}
+
+.middle-view .gradient {
+  width: 100%;
+  height: 100%;
+  min-height: 100px;
+}
+
+.middle-view .header {
+  position: absolute;
+  width: 40vw;
+  max-width: 561px;
+  height: auto;
+  top: 5vw;
+  left: 14.48vw;
+  font-size: calc(0.7rem + 0.6vw);
+  line-height: 1.8;
+  color: #fafcfd;
+}
+
+.middle-view .button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9.48vw;
+  height: 2.14vw;
+  background: #fafcfd;
+  top: 7.34vw;
+  right: 14.27vw;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.middle-view .button .text-button {
+  font-size: calc(0.4rem + 0.15vw);
+  font-weight: bold;
+  color: #0062a0;
+}

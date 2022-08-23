@@ -1,0 +1,146 @@
+@media (max-width: 810px) {
+  .best-offer {
+    width: 90vw;
+    height: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  .best-offer .photo .kids {
+    width: 100%;
+    height: 100%;
+  }
+
+  .best-offer .photo .box {
+    width: 7.6vw;
+    height: 7.6vw;
+    bottom: -1px;
+    right: -0.5px;
+  }
+
+  .best-offer .photo .star {
+    width: 3vw;
+    height: 3vw;
+    right: 2.3vw;
+    bottom: 2.3vw;
+  }
+
+}
+
+@media (max-width: 810px) {
+  .best-offer {
+    height: 250px;
+  }
+
+  .best-offer .text-kind {
+    font-size: calc(0.5rem + 1vw);
+    top: 2vw;
+    left: 47vw;
+  }
+
+  .best-offer .text-lesson {
+    font-size: calc(0.8rem + 1.2vw);
+    top: 6vw;
+    left: 47vw;
+  }
+
+  .best-offer .text-about {
+    font-size: calc(0.3rem + 0.85vw);
+    top: 11vw;
+    left: 47vw;
+    line-height: 1.6;
+    height: 60px;
+    width: 225px;
+    overflow: hidden;
+  }
+
+  .best-offer .species {
+    margin-top: 70px;
+    height: 45px;
+  }
+
+  .best-offer .species .clock {
+    width: 14px;
+    height: 17px;
+    left: 23px;
+  }
+
+  .best-offer .species .wallet {
+    width: 20px;
+    height: 17px;
+    left: 20px;
+  }
+
+  .best-offer .species .text-clock {
+    display: none;
+  }
+
+  .best-offer .species .text-wallet {
+    display: none;
+  }
+
+  .best-offer .species .text-time {
+    top: -4%;
+    font-size: 14px;
+    left: 60px;
+  }
+
+  .best-offer .species .text-price {
+    top: 55%;
+    font-size: 17px;
+    left: 60px;
+  }
+
+  .best-offer .options-buttons {
+    justify-content: space-around;
+    left: 0;
+    top: 165px;
+    height: 30.75px;
+    width: 100%;
+    bottom: 1%;
+  }
+
+  .best-offer .options-buttons .save {
+    height: 30.75px;
+    width: 75px;
+  }
+
+  .best-offer .options-buttons .show {
+    height: 30.75px;
+    width: 75px;
+  }
+
+  .best-offer .options-buttons .save .text-save {
+    font-size: calc(0.4rem + 1vw);
+  }
+
+  .best-offer .options-buttons .show .text-show {
+    font-size: calc(0.4rem + 1vw);
+  }
+
+  .middle-view .header {
+    top: 1vw;
+    font-size: calc(0.3rem + 0.1vw);
+    line-height: 1.8;
+
+  }
+
+  .middle-view .button {
+    width: 18.96vw;
+    height: 4.28vw;
+  }
+
+  .middle-view .button .text-button {
+    font-size: calc(0.4rem + 1vw);
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .middle-view .header {
+    font-size: calc(0.6rem + 0.3vw);
+    line-height: 1.8;
+
+  }
+}

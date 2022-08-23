@@ -1,0 +1,63 @@
+.navigation-content {
+  position: relative;
+  height: 3.8vw;
+  width: 100%;
+}
+
+.navigation-content .logo {
+  position: absolute;
+  width: 8.85%;
+  left: 8.59%;
+  top: 1.09vw;
+}
+
+.navigation-content .navbar {
+  position: absolute;
+  left: 56.56%;
+  top: 52.1%;
+  font-size: calc(0.4rem + 0.18vw);
+  font-weight: bold;
+}
+
+.navigation-content .navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 26.72vw;
+  min-width: 240px;
+}
+
+.navigation-content .navbar a {
+   text-decoration: none;
+   color: #262b3a;
+ }
+
+.navigation-content .login {
+  position: absolute;
+  display: flex;
+  background: #0062a0;
+  width: 11.77%;
+  height: 100%;
+  right: 0;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+}
+
+.navigation-content .login .user {
+  width: 1.3vw;
+  height: 1.3vw;
+  margin-top: 1.25vw;
+  margin-left: 1.99vw;
+  color: #fafcfd;
+}
+
+.navigation-content .login a {
+  text-decoration: none;
+  font-size: calc(0.4rem + 0.18vw);
+  margin-left: 1.46vw;
+  margin-top: 1.61vw;
+  font-weight: bold;
+  color: #fafcfd;
+}
